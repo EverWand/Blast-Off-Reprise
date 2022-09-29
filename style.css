@@ -1,0 +1,52 @@
+/*Body styles*/
+body{
+    /*makes the webpage's background an image*/
+    background-image: url("https://www.publicdomainpictures.net/pictures/40000/velka/spatiul-cosmic.jpg");
+
+}
+
+/*Header Styles*/
+    /*makes <h1> tags text size 50 pixels*/
+h1{  
+    font-size: 50px;
+}
+
+    /*aligns all the header text to the center*/
+h1, h2, h3{
+    text-align: center;
+}
+
+
+
+
+/*ID Styles*/
+   
+#txtOut{
+
+    /*changes color of the text*/
+    color: ghostwhite;
+    /*makes the text bolder*/
+    font-weight: bolder;
+    /*increases the font size*/
+    font-size: 120px;
+    /*edits the margin in order to reposition the text*/
+    margin-top: 15%;
+    
+}
+    
+#context{
+    /*Changes the text's font*/
+    font-family: OCR A Std, monospace;
+    /*adds a background color to the context panel*/
+    background-color: beige;
+    /*edits the margin in order to shorten the panel*/
+    margin-left: 20%;
+    /*edits the margin in order to shorten the panel*/
+    margin-right: 20%;
+    /*cuts off the edges of the context panel*/
+    border-radius: 35px;
+    /*stylizes the context panel's border*/
+    border-style:ridge;
+    /*increases the width of the border*/
+    border-width: 5px;
+}

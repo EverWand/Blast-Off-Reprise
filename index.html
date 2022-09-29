@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--HTML tags to begin/end the document-->
+<html>
+    <!--Header portion to put the website's info.-->
+    <head>
+        <!--Link the .css Style Sheet file to this document-->
+        <link rel="stylesheet" href="style.css">
+        
+        <!--Links the JavaScript file-->
+        <script src="script.js"></script>
+        <!--title of the webpage-->
+        <title>Initiate Blast Off!</title>
+    </head>
+
+    <!--Body Portion to put the pages contents-->
+    <body>
+        
+        <!--div tag that seperates the header/context text from the timer text-->
+        <div id="context">
+            <!--header text tags to give context on what is happening on the webpage-->
+                <!--h1, the largest header text-->
+            <h1>Get Ready For Blast Off!</h1>
+
+            <!--creates line between the <h1> and <h3> text -->
+            <hr>
+            
+            <!--creates a button that activates the countDown function inside the script.js file-->
+            <center><button onclick="countDown();">Click to Begin Blastoff</button></center>
+                <!--Smaller variant of header text-->
+            <h3>Time Until Blast Off<br>v</h3>
+            
+        </div>
+
+        
+        <!-- Set an ID to assign the integer of the current time left to be outputted as HTML text-->
+        <h2 id="txtOut"></h2>
+
+    </body>
+
+</html>
